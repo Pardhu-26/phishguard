@@ -1,0 +1,24 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# PhishGuard — Streamlit theme configuration
+# ⚠️  After editing this file you MUST restart Streamlit for changes to take effect:
+#     Ctrl-C  →  streamlit run app.py
+# ──────────────────────────────────────────────────────────────────────────────
+
+[theme]
+# Dark base — Streamlit starts from its built-in dark defaults, then we
+# override every colour token to achieve the navy/teal dashboard look.
+base = "dark"
+
+# ── Canvas colours ────────────────────────────────────────────────────────────
+backgroundColor          = "#0b0f19"   # deep navy — main page canvas
+secondaryBackgroundColor = "#131929"   # slightly lighter — expanders, inputs, sidebars
+
+# ── Typography ────────────────────────────────────────────────────────────────
+# "sans serif" (Streamlit's built-in token) gives clean Inter/system-ui rendering.
+# Monospace is reserved for code / addresses inside the app via CSS.
+textColor = "#dde6f0"   # warm off-white — primary readable text
+font      = "sans serif"
+
+# ── Accent ────────────────────────────────────────────────────────────────────
+# Used for buttons, active tabs, progress bars, sliders, and focus rings.
+primaryColor = "#00d4c8"   # vivid teal-cyan

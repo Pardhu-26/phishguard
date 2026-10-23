@@ -1,0 +1,8 @@
+# PhishGuard — Python dependencies
+# Install with: pip install -r requirements.txt
+# Run the app with: streamlit run app.py
+#
+# All other modules used (email, html, random, re, datetime, email.policy)
+# are part of the Python standard library and do not need to be listed here.
+
+streamlit>=1.32.0
